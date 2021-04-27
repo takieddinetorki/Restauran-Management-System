@@ -1,0 +1,15 @@
+#pragma once
+#include "APP_UI.h"
+/////////////////////////////////////////////////////////////////////////////
+// Name:        cApp.h
+// Purpose:     Init class
+// Author:		Taki Eddine TORKI
+/////////////////////////////////////////////////////////////////////////////
+class App : public wxApp
+{
+public:
+
+	virtual bool OnInit();
+private:
+	Landing* Init = new Landing;
+};
